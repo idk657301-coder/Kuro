@@ -10,4 +10,4 @@ client.once('ready', () => {
   console.log(`Bot ${client.user.tag} sudah online!`);
 });
 
-client.login(process.env.DISCORD_TOKEN);
+client.login(process.env.BOT_TOKEN);
